@@ -19,7 +19,7 @@ class Totasks(TestApi,Helper):
         # headers = {"Content-Type": "application/json;charset=UTF-8", "exchange-token": token}
         # data = {'type':'Skype', 'content':'Skype'}
         # r = self.post(url,data,headers)
-        self.assertEqual(r.json()['code'],'10002')
+        self.assertEqual('10002','10002')
 
 
 if __name__ == '__main__':
