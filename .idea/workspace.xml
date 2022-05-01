@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdd1fbb8-21be-40e0-a72c-197c30c5a40d" name="Default" comment="修改bd">
+    <list default="true" id="fdd1fbb8-21be-40e0-a72c-197c30c5a40d" name="Default" comment="修改bd2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/2020_10_07_17_40_47result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/2020_10_07_17_45_48result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/2020_10_07_17_50_29result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/2020_10_07_17_53_36result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/2020_10_07_18_01_24result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/2021_10_29_19_39_59result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/2021_11_01_15_29_40result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/2021_11_02_11_54_34result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/2021_11_02_12_00_56result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/2021_11_02_13_42_38result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/2021_11_03_11_25_08result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/2021_11_03_16_54_16result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/2021_11_08_17_33_10result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/test_tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/runMain.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,35 +106,37 @@
     <session id="290120606">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
           <entry key="py" value="3" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="8" />
-          <entry key="txt" value="35" />
+          <entry key="txt" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="PLAIN_TEXT" value="36" />
           <entry key="Python" value="8" />
         </counts>
       </usages-collector>
@@ -169,14 +156,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCases/test_tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="152">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Log/log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -232,7 +228,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="1748">
               <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
             </state>
           </provider>
@@ -313,12 +309,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="reliangApiTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="reliangApiTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reliangApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reliangApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reliangApiTest" type="b2602c69:ProjectViewProjectNode" />
@@ -334,7 +336,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -581,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651396488820</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="修改bd2">
+      <created>1651403555569</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651403555569</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -620,7 +628,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.16168149" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.16410671" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5010917" side_tool="true" weight="0.19722815" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -633,7 +641,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.32969433" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.25707355" side_tool="true" visible="true" weight="0.2508897" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.25707355" side_tool="true" visible="true" weight="0.2508897" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -662,7 +670,8 @@
     <MESSAGE value="打开邮件发送" />
     <MESSAGE value="关闭邮件发送" />
     <MESSAGE value="修改bd" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改bd" />
+    <MESSAGE value="修改bd2" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改bd2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Students/处理Session.py">
@@ -767,13 +776,6 @@
     <entry file="file://$PROJECT_DIR$/Reports/2021_11_02_11_54_34result.html" />
     <entry file="file://$PROJECT_DIR$/Reports/2021_11_08_17_33_10result.html" />
     <entry file="file://$PROJECT_DIR$/Reports/2021_10_29_19_39_59result.html" />
-    <entry file="file://$PROJECT_DIR$/Log/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/urllib3/connection.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/unittest/case.py" />
     <entry file="file://$PROJECT_DIR$/TestCases/__init__.py">
@@ -791,6 +793,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -832,6 +844,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/runMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -839,20 +858,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runMain.py">
+    <entry file="file://$PROJECT_DIR$/Log/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
         </state>
       </provider>
     </entry>
