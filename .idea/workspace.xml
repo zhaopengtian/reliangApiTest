@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdd1fbb8-21be-40e0-a72c-197c30c5a40d" name="Default" comment="test_2改变">
+    <list default="true" id="fdd1fbb8-21be-40e0-a72c-197c30c5a40d" name="Default" comment="关闭邮件发送">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/reliangApiTest$runMain.coverage" NAME="runMain Coverage Results" MODIFIED="1651386394290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/reliangApiTest$runMain.coverage" NAME="runMain Coverage Results" MODIFIED="1651387083652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/requestTest$Unittests_for_test_tasks_Totasks_test_2_bd1.coverage" NAME="Unittests for test_tasks.Totasks.test_2_bd1 Coverage Results" MODIFIED="1604653260391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/requestTest$xmljson.coverage" NAME="xml与json数据之间的转换 Coverage Results" MODIFIED="1601970424319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/requestTest$runMain.coverage" NAME="runMain Coverage Results" MODIFIED="1636363990156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -106,11 +106,12 @@
     <session id="290120606">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -128,12 +129,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="7" />
-          <entry key="txt" value="23" />
+          <entry key="txt" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="PLAIN_TEXT" value="31" />
           <entry key="Python" value="7" />
         </counts>
       </usages-collector>
@@ -153,10 +154,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCases/test_tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
+            <state relative-caret-position="147">
               <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -213,11 +214,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="100" column="101" lean-forward="true" selection-start-line="100" selection-start-column="101" selection-end-line="100" selection-end-column="101" />
+            <state relative-caret-position="203">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
             </state>
           </provider>
         </entry>
@@ -302,6 +303,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,7 +330,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -554,7 +555,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651386784428</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="打开邮件发送">
+      <created>1651386887795</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651386887795</updated>
+    </task>
+    <task id="LOCAL-00011" summary="关闭邮件发送">
+      <created>1651387203324</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651387203324</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -590,15 +605,15 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.15683104" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.15925626" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5010917" side_tool="true" weight="0.19722815" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32980973" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.738076" visible="true" weight="0.4822064" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7429264" weight="0.4822064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -606,7 +621,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.32969433" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.261924" side_tool="true" visible="true" weight="0.4822064" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.25707355" side_tool="true" visible="true" weight="0.4822064" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -629,11 +644,12 @@
     <MESSAGE value="增加文件" />
     <MESSAGE value="增加gvg类" />
     <MESSAGE value="更改邮箱接收人" />
-    <MESSAGE value="关闭邮件发送" />
     <MESSAGE value="放开发送邮箱" />
     <MESSAGE value="关闭发送邮箱" />
     <MESSAGE value="test_2改变" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_2改变" />
+    <MESSAGE value="打开邮件发送" />
+    <MESSAGE value="关闭邮件发送" />
+    <option name="LAST_COMMIT_MESSAGE" value="关闭邮件发送" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Students/处理Session.py">
@@ -826,6 +842,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/2022_05_01_14_26_35result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -833,23 +852,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Reports/2022_05_01_14_26_35result.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/runMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/test_tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
+        <state relative-caret-position="147">
           <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runMain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="100" column="101" lean-forward="true" selection-start-line="100" selection-start-column="101" selection-end-line="100" selection-end-column="101" />
         </state>
       </provider>
     </entry>
