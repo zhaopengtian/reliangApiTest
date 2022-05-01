@@ -98,8 +98,8 @@ if __name__ == '__main__':
     fp.close()
     new_report = new_file(test_report)                                #获取最新报告文件
 
-    yagindex = yagmail.SMTP(user='729560832@qq.com', password='exbjjmbjshezbdga', host='smtp.qq.com')
-    yag_contents = ['这是一个yagmail模板发送邮件正文的实例，哈哈哈哈']
-    # yagindex.send('zhaopengtian@lefu.cc', 'yagmail带附件主题实例', yag_contents, new_report)
-    yagindex.send('zhaopengtian2015@163.com', 'yagmail带附件主题实例', yag_contents, new_report)
-    log.info('发送邮件成功')
+    # yagindex = yagmail.SMTP(user='729560832@qq.com', password='exbjjmbjshezbdga', host='smtp.qq.com')
+    # yag_contents = ['这是一个yagmail模板发送邮件正文的实例，哈哈哈哈']
+    # # yagindex.send('zhaopengtian@lefu.cc', 'yagmail带附件主题实例', yag_contents, new_report)
+    # yagindex.send('zhaopengtian2015@163.com', 'yagmail带附件主题实例', yag_contents, new_report)
+    # log.info('发送邮件成功')
