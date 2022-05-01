@@ -90,7 +90,7 @@ if __name__ == '__main__':
     runner = HTMLTestRunner(
                 stream=fp,  # 文件
                 verbosity=2,
-                title="pythonPO自动化测试百度进入测试",  # 标题
+                title="pythonPO测试",  # 标题
                 description=u"系统环境：Win10 浏览器：Chrome 用例执行情况："  # 描述
             )
     runner.run(testlist)  # 启动测试套件
