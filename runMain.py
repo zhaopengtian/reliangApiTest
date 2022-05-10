@@ -3,7 +3,8 @@ sys.path.append((os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
 # curPath = os.path.abspath(os.path.dirname(__file__))
 # rootPath = os.path.split(curPath)[0]
 # sys.path.append(r"E:/pyobject/seleniumTest/testCases")
-from TestCases.test_tasks import Totasks
+from TestCases.test_login import *
+from TestCases.test_shouye import *
 
 import time
 import unittest
@@ -80,8 +81,7 @@ if __name__ == '__main__':
     # testlist = unittest.defaultTestLoader.discover(test_dir,pattern='test*.py')
     '''跑指定文件下的测试用例'''
     testlist = unittest.TestSuite()
-    testlist.addTest(Totasks("test_2_bd"))
-    # testlist.addTest(TestModel("test_4_ss"))
+    testlist.addTest(Shouye("test_shouye_getcategories"))
     '''跑一个类文件下的所有测试用例'''
     # testlist = unittest.TestSuite(unittest.makeSuite(TestModel))
     now = time.strftime("%Y_%m_%d_%H_%M_%S")
@@ -98,7 +98,7 @@ if __name__ == '__main__':
     fp.close()
     new_report = new_file(test_report)                                #获取最新报告文件
 
-    # yagindex = yagmail.SMTP(user='729560832@qq.com', password='exbjjmbjshezbdga', host='smtp.qq.com')
+    # yagindex = yagmail.SMTP(user='729560832@qq.com', password='loffussjyccybfhh', host='smtp.qq.com')
     # yag_contents = ['这是一个yagmail模板发送邮件正文的实例，哈哈哈哈']
     # # yagindex.send('zhaopengtian@lefu.cc', 'yagmail带附件主题实例', yag_contents, new_report)
     # yagindex.send('zhaopengtian2015@163.com', 'yagmail带附件主题实例', yag_contents, new_report)

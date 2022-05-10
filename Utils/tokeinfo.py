@@ -1,3 +1,0 @@
-def tokeninfo():
-    token = 'eyJhbGciOiJIUzI1NiIsInppcCI6IkdaSVAifQ.5HUP/om754ZVK1Oeoyz90DAcqTd3/x0d7FcLo5mHDoe00GjYlG2TN4OuCPcRSXAap5pxPNj/qGle+eKfzP9hRiXOWyQQPKHyCjLXGV+hiXs1W5yqjf9w/vI3bAaXDW8ZMf8hHlsI0266B+ii4Ys0T/G98sqbb5shF1GFScnhF3t8kWB5hNcXTXT0A6htaKMDVR2HZGsGNkwFjUAi2W4LaP0JLHYPVBlVpnNCmCP2Qok=.aKGGUX1zThqcDxydPIoqwSwB-CFawU89I2Ux3X4i6m8'
-    return token

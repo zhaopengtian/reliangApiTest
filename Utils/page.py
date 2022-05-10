@@ -1,10 +1,10 @@
 import os,requests
 
 class Helper(object):
-    def get(self,url,headers=''):
+    def get(self,url,data,headers=''):
         '''重构Get请求'''
         if url:
-            r = requests.get(url=url,headers=headers)
+            r = requests.get(url=url,data=data,headers=headers)
             return r
         else:
             try:
@@ -15,7 +15,7 @@ class Helper(object):
     def post(self,url,data,headers=''):
         '''重构Post请求'''
         if url:
-            r = requests.post(url=url,json=data,headers=headers)
+            r = requests.post(url=url,data=data,headers=headers)
             return r
         else:
             try:

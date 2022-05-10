@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdd1fbb8-21be-40e0-a72c-197c30c5a40d" name="Default" comment="修改bd3正确再一次">
+      <change afterPath="$PROJECT_DIR$/Basepage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test_shouye.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/operationini.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/operationyaml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/case_parameters.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/server_address.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basepage/unittestChushihua.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basepage/unittestChushihua.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Log/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/gvg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/login.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/yyy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/tokeinfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/runMain.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,24 +29,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/reliangApiTest$runMain.coverage" NAME="runMain Coverage Results" MODIFIED="1651387083652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/requestTest$Unittests_for_test_tasks_Totasks_test_2_bd1.coverage" NAME="Unittests for test_tasks.Totasks.test_2_bd1 Coverage Results" MODIFIED="1604653260391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
-    <SUITE FILE_PATH="coverage/requestTest$xmljson.coverage" NAME="xml与json数据之间的转换 Coverage Results" MODIFIED="1601970424319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/requestTest$runMain.coverage" NAME="runMain Coverage Results" MODIFIED="1636363990156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/requestTest$Unittests_for_test_tasks_Totasks_test_1_bd1.coverage" NAME="Unittests for test_tasks.Totasks.test_1_bd1 Coverage Results" MODIFIED="1604653336840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/reliangApiTest$operationyaml.coverage" NAME="operationyaml Coverage Results" MODIFIED="1652088663332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils" />
     <SUITE FILE_PATH="coverage/requestTest$Unittests_for_test_tasks_Totasks_test_2_bd.coverage" NAME="Unittests for test_tasks.Totasks.test_2_bd Coverage Results" MODIFIED="1604653346326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/requestTest$Response.coverage" NAME="Response对象解析 Coverage Results" MODIFIED="1601902608829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/requestTest$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1604651772021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/requestTest$Unittests_in_test_tasks_py.coverage" NAME="Unittests in test_tasks.py Coverage Results" MODIFIED="1635507592416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
-    <SUITE FILE_PATH="coverage/requestTest$Unittests_for_test_Totasks_test_bd.coverage" NAME="Unittests for test.Totasks.test_bd Coverage Results" MODIFIED="1636168669799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/reliangApiTest$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1645064929054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/requestTest$log.coverage" NAME="log Coverage Results" MODIFIED="1602064831053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils" />
-    <SUITE FILE_PATH="coverage/requestTest$Unittests_for_test_tasks_Totasks_test_bd1.coverage" NAME="Unittests for test_tasks.Totasks.test_bd1 Coverage Results" MODIFIED="1604653184355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/reliangApiTest$Unittests_for_unittestChushihua_TestApi.coverage" NAME="Unittests for unittestChushihua.TestApi Coverage Results" MODIFIED="1652074502944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Basepage" />
     <SUITE FILE_PATH="coverage/requestTest$Unittests_for_test_tasks_Totasks.coverage" NAME="Unittests for test_tasks.Totasks Coverage Results" MODIFIED="1604653379893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/requestTest$.coverage" NAME="序列化与反序列化 Coverage Results" MODIFIED="1601967744983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/requestTest$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1601903464164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/reliangApiTest$Unittests_in_test_shouye_py.coverage" NAME="Unittests in test_shouye.py Coverage Results" MODIFIED="1652162601491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/requestTest$test_tasks.coverage" NAME="test_tasks Coverage Results" MODIFIED="1602062496217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
     <SUITE FILE_PATH="coverage/requestTest$Unittests_for_test_tasks_Totasks_test_bd.coverage" NAME="Unittests for test_tasks.Totasks.test_bd Coverage Results" MODIFIED="1604653162173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/reliangApiTest$runMain.coverage" NAME="runMain Coverage Results" MODIFIED="1652076453701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/requestTest$Unittests_for_test_tasks_Totasks_test_2_bd1.coverage" NAME="Unittests for test_tasks.Totasks.test_2_bd1 Coverage Results" MODIFIED="1604653260391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/requestTest$xmljson.coverage" NAME="xml与json数据之间的转换 Coverage Results" MODIFIED="1601970424319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/requestTest$runMain.coverage" NAME="runMain Coverage Results" MODIFIED="1636363990156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/requestTest$Unittests_for_test_tasks_Totasks_test_1_bd1.coverage" NAME="Unittests for test_tasks.Totasks.test_1_bd1 Coverage Results" MODIFIED="1604653336840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/reliangApiTest$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1652081105486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/requestTest$Unittests_for_test_Totasks_test_bd.coverage" NAME="Unittests for test.Totasks.test_bd Coverage Results" MODIFIED="1636168669799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/reliangApiTest$Unittests_for_test_login_Login.coverage" NAME="Unittests for test_login.Login Coverage Results" MODIFIED="1652148208893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/reliangApiTest$operationini.coverage" NAME="operationini Coverage Results" MODIFIED="1652086192447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils" />
+    <SUITE FILE_PATH="coverage/requestTest$Unittests_for_test_tasks_Totasks_test_bd1.coverage" NAME="Unittests for test_tasks.Totasks.test_bd1 Coverage Results" MODIFIED="1604653184355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/requestTest$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1601903464164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/reliangApiTest$Unittests_for_test_shouye_Shouye_test_shouye_articleclassification.coverage" NAME="Unittests for test_shouye.Shouye.test_shouye_articleclassification Coverage Results" MODIFIED="1652163757792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/reliangApiTest$Unittests_for_test_shouye_Shouye_test_shouye_getcategories.coverage" NAME="Unittests for test_shouye.Shouye.test_shouye_getcategories Coverage Results" MODIFIED="1652093925764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/reliangApiTest$Unittests_for_test_shouye_Shouye.coverage" NAME="Unittests for test_shouye.Shouye Coverage Results" MODIFIED="1652148721461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/reliangApiTest$Unittests_for_test_shouye_Shouye_test_shouye_articlelist.coverage" NAME="Unittests for test_shouye.Shouye.test_shouye_articlelist Coverage Results" MODIFIED="1652163664635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
+    <SUITE FILE_PATH="coverage/reliangApiTest$.coverage" NAME="序列化与反序列化 Coverage Results" MODIFIED="1652079839552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Students" />
+    <SUITE FILE_PATH="coverage/reliangApiTest$Unittests_for_test_login_Login_test_login.coverage" NAME="Unittests for test_login.Login.test_login Coverage Results" MODIFIED="1652160380402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1098930053">
@@ -106,38 +136,49 @@
     <session id="290120606">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="py" value="3" />
-          <entry key="txt" value="1" />
+          <entry key="html" value="4" />
+          <entry key="ini" value="1" />
+          <entry key="py" value="40" />
+          <entry key="txt" value="2" />
+          <entry key="yaml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="3" />
+          <entry key="HTML" value="4" />
+          <entry key="Ini" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="40" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="15" />
+          <entry key="dummy" value="16" />
+          <entry key="ini" value="59" />
+          <entry key="py" value="2024" />
           <entry key="txt" value="42" />
+          <entry key="yaml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="15" />
+          <entry key="Ini" value="59" />
+          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="Python" value="2024" />
+          <entry key="YAML" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -148,61 +189,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/gvg.py">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/test_tasks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="178">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#139#154#0" expanded="true" />
+                <marker date="1652163757728" expanded="true" signature="433:434" ph="..." />
+                <marker date="1652163757728" expanded="true" signature="433:438" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Log/log.txt">
+        <entry file="file://C:/Software/python38/Lib/unittest/case.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="27">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/test.py">
+        <entry file="file://$PROJECT_DIR$/Utils/operationini.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="404">
+              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1652086372503" expanded="true" signature="732:737" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utils/log.py">
+        <entry file="file://$PROJECT_DIR$/TestCases/test_shouye.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basepage/unittestChushihua.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="75">
+              <caret line="63" column="20" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="20" />
+              <folding>
+                <element signature="e#138#149#0" expanded="true" />
+                <marker date="1652164313576" expanded="true" signature="493:494" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,35 +239,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Utils/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="75">
+              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Utils/tokeinfo.py">
+        <entry file="file://$PROJECT_DIR$/data/server_address.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="2" selection-end-column="16" />
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/runMain.py">
+        <entry file="file://$PROJECT_DIR$/data/case_parameters.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="100" column="101" selection-start-line="100" selection-start-column="90" selection-end-line="100" selection-end-column="101" />
+            <state relative-caret-position="250">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestCases/login.py">
+        <entry file="file://$PROJECT_DIR$/Utils/operationyaml.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="176">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#142#153#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/token.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="534" />
             </state>
           </provider>
         </entry>
@@ -251,6 +292,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>文章</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -276,18 +322,27 @@
         <option value="$PROJECT_DIR$/Requeses文件上传.py" />
         <option value="$PROJECT_DIR$/序列化与反序列化.py" />
         <option value="$PROJECT_DIR$/xml与json数据之间的转换.py" />
-        <option value="$PROJECT_DIR$/Utils/page.py" />
-        <option value="$PROJECT_DIR$/Basepage/unittestChushihua.py" />
         <option value="$PROJECT_DIR$/Utils/log.py" />
         <option value="$PROJECT_DIR$/TestCases/login.py" />
         <option value="$PROJECT_DIR$/Utils/tokeinfo.py" />
         <option value="$PROJECT_DIR$/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/TestCases/yyy.py" />
         <option value="$PROJECT_DIR$/TestCases/gvg.py" />
-        <option value="$PROJECT_DIR$/TestCases/test.py" />
         <option value="$PROJECT_DIR$/TestCases/__init__.py" />
-        <option value="$PROJECT_DIR$/runMain.py" />
         <option value="$PROJECT_DIR$/TestCases/test_tasks.py" />
+        <option value="$PROJECT_DIR$/TestCases/test.py" />
+        <option value="$PROJECT_DIR$/runMain.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_allcases.py" />
+        <option value="$PROJECT_DIR$/Basepage/unittestChushihua.py" />
+        <option value="$PROJECT_DIR$/data/token.yaml" />
+        <option value="$PROJECT_DIR$/Log/log.txt" />
+        <option value="$PROJECT_DIR$/Utils/operationini.py" />
+        <option value="$PROJECT_DIR$/data/server_address.yaml" />
+        <option value="$PROJECT_DIR$/Utils/operationyaml.py" />
+        <option value="$PROJECT_DIR$/Utils/page.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_login.py" />
+        <option value="$PROJECT_DIR$/TestCases/test_shouye.py" />
+        <option value="$PROJECT_DIR$/data/case_parameters.ini" />
       </list>
     </option>
   </component>
@@ -298,8 +353,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="138" />
-    <option name="y" value="36" />
+    <option name="x" value="523" />
     <option name="width" value="1416" />
     <option name="height" value="1044" />
   </component>
@@ -316,6 +370,16 @@
             <path>
               <item name="reliangApiTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="reliangApiTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reliangApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reliangApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Basepage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reliangApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reliangApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reliangApiTest" type="b2602c69:ProjectViewProjectNode" />
@@ -344,11 +408,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\pythonproject\requestTest" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\pyobject\requestTest\Students" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\pyproject\reliangApiTest\Utils" />
+      <recent name="C:\pyproject\reliangApiTest\Reports" />
+      <recent name="C:\pyproject\reliangApiTest\Log" />
+      <recent name="C:\pyproject\reliangApiTest\Basepage" />
+      <recent name="E:\pythonproject\requestTest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -363,29 +431,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.runMain">
-    <configuration name="runMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="requestTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runMain.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for test_shouye.Shouye.test_shouye_articleclassification">
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -395,7 +441,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test.Totasks.test_bd" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_login.Login.test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="requestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -406,26 +452,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.Totasks.test_bd&quot;" />
+      <option name="_new_target" value="&quot;test_login.Login.test_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_tasks.Totasks" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="requestTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_tasks.Totasks&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_shouye.Shouye" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="requestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -436,22 +467,52 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_shouye.Shouye&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_tasks.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_shouye.Shouye.test_shouye_articleclassification" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="requestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/test_tasks.py&quot;" />
+      <option name="_new_target" value="&quot;test_shouye.Shouye.test_shouye_articleclassification&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_shouye.Shouye.test_shouye_articlelist" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="requestTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_shouye.Shouye.test_shouye_articlelist&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_shouye.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="requestTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestCases/test_shouye.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -471,19 +532,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_tasks.Totasks" />
-      <item itemvalue="Python tests.Unittests in test_tasks.py" />
-      <item itemvalue="Python.runMain" />
-      <item itemvalue="Python tests.Unittests for test.Totasks.test_bd" />
-      <item itemvalue="Python tests.Unittests in test.py" />
+      <item itemvalue="Python tests.Unittests for test_login.Login.test_login" />
+      <item itemvalue="Python tests.Unittests for test_shouye.Shouye" />
+      <item itemvalue="Python tests.Unittests for test_shouye.Shouye.test_shouye_articlelist" />
+      <item itemvalue="Python tests.Unittests for test_shouye.Shouye.test_shouye_articleclassification" />
+      <item itemvalue="Python tests.Unittests in test_shouye.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.runMain" />
-        <item itemvalue="Python tests.Unittests in test.py" />
-        <item itemvalue="Python tests.Unittests for test.Totasks.test_bd" />
-        <item itemvalue="Python tests.Unittests in test_tasks.py" />
-        <item itemvalue="Python tests.Unittests for test_tasks.Totasks" />
+        <item itemvalue="Python tests.Unittests for test_shouye.Shouye.test_shouye_articleclassification" />
+        <item itemvalue="Python tests.Unittests for test_shouye.Shouye.test_shouye_articlelist" />
+        <item itemvalue="Python tests.Unittests in test_shouye.py" />
+        <item itemvalue="Python tests.Unittests for test_login.Login.test_login" />
+        <item itemvalue="Python tests.Unittests for test_shouye.Shouye" />
       </list>
     </recent_temporary>
   </component>
@@ -610,64 +671,71 @@
       <option name="project" value="LOCAL" />
       <updated>1651423491342</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="修改bd3正确再一次">
+      <created>1651475437854</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1651475437854</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_tasks_py - 2020.11.06 at 17h 06m 25s.xml">
-      <configuration name="Unittests in test_tasks.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_shouye_Shouye_test_shouye_articlelist - 2022.05.10 at 13h 40m 25s.xml">
+      <configuration name="Unittests for test_shouye.Shouye.test_shouye_articlelist" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_tasks_py - 2020.11.06 at 17h 07m 04s.xml">
-      <configuration name="Unittests in test_tasks.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_shouye_Shouye_test_shouye_articlelist - 2022.05.10 at 13h 45m 20s.xml">
+      <configuration name="Unittests for test_shouye.Shouye.test_shouye_articlelist" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_tasks_py - 2021.10.29 at 19h 39m 21s.xml">
-      <configuration name="Unittests in test_tasks.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_shouye_Shouye_test_shouye_articlelist - 2022.05.10 at 13h 45m 34s.xml">
+      <configuration name="Unittests for test_shouye.Shouye.test_shouye_articlelist" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_tasks_py - 2021.10.29 at 19h 39m 57s.xml">
-      <configuration name="Unittests in test_tasks.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_shouye_Shouye_test_shouye_articlelist - 2022.05.10 at 13h 46m 05s.xml">
+      <configuration name="Unittests for test_shouye.Shouye.test_shouye_articlelist" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_Totasks_test_bd - 2021.11.06 at 11h 17m 53s.xml">
-      <configuration name="Unittests for test.Totasks.test_bd" configurationId="tests" />
+    <history-entry file="Unittests_for_test_shouye_Shouye_test_shouye_articlelist - 2022.05.10 at 13h 52m 22s.xml">
+      <configuration name="Unittests for test_shouye.Shouye.test_shouye_articlelist" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2022.02.17 at 08h 52m 24s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_shouye_py - 2022.05.10 at 13h 54m 05s.xml">
+      <configuration name="Unittests in test_shouye.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2022.02.17 at 10h 02m 31s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_shouye_py - 2022.05.10 at 13h 54m 20s.xml">
+      <configuration name="Unittests in test_shouye.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2022.02.17 at 10h 04m 29s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_shouye_py - 2022.05.10 at 14h 03m 23s.xml">
+      <configuration name="Unittests in test_shouye.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2022.02.17 at 10h 16m 20s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_shouye_Shouye_test_shouye_articlelist - 2022.05.10 at 14h 21m 07s.xml">
+      <configuration name="Unittests for test_shouye.Shouye.test_shouye_articlelist" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_py - 2022.02.17 at 10h 28m 49s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_shouye_Shouye_test_shouye_articleclassification - 2022.05.10 at 14h 22m 40s.xml">
+      <configuration name="Unittests for test_shouye.Shouye.test_shouye_articleclassification" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.16410671" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989083" visible="true" weight="0.17138238" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5010917" side_tool="true" weight="0.19722815" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32980973" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7429264" weight="0.4822064" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4995958" weight="0.3291815" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7364592" visible="true" weight="0.15480427" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.32969433" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4987874" weight="0.3291815" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.25707355" side_tool="true" visible="true" weight="0.2508897" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.26354083" side_tool="true" visible="true" weight="0.15480427" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="5" />
@@ -698,52 +766,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改bd3正确再一次" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Students/处理Session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Students/处理超时等待.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Students/Response对象解析.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Students/Requeses文件上传.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Students/xml与json数据之间的转换.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reports/2020_10_07_17_45_48result.html" />
-    <entry file="file://$PROJECT_DIR$/Utils/Log" />
-    <entry file="file://$PROJECT_DIR$/logTest.txt" />
-    <entry file="file://$PROJECT_DIR$/Students/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/program files/python38/Lib/site-packages/HTMLTestRunner.py" />
     <entry file="file://$PROJECT_DIR$/Reports/2020_10_07_17_40_47result.html" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/yagmail/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -766,24 +788,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Students/序列化与反序列化.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Students/处理cookie.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Students/处理token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -805,87 +813,237 @@
     <entry file="file://$PROJECT_DIR$/TestCases/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/yyy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Reports/2022_05_01_14_26_35result.html" />
-    <entry file="file://$PROJECT_DIR$/TestCases/gvg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Utils/log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
+        <state relative-caret-position="-8">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basepage/unittestChushihua.py">
+    <entry file="file://$PROJECT_DIR$/Students/处理token.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="325">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/page.py">
+    <entry file="file://$PROJECT_DIR$/Students/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="378">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utils/tokeinfo.py">
+    <entry file="file://$PROJECT_DIR$/Basepage/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Log/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Software/python38/Lib/unittest/suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="112">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/login.py">
+    <entry file="file://$PROJECT_DIR$/Reports/2022_05_09_10_56_54result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Software/python38/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state>
+          <caret line="182" column="4" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Log/log.txt">
+    <entry file="file://$PROJECT_DIR$/Reports/2022_05_09_11_33_56result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Software/python38/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        <state relative-caret-position="100">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCases/test_tasks.py">
+    <entry file="file://C:/Software/python38/Lib/site-packages/requests/sessions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1075">
+          <caret line="731" selection-start-line="731" selection-end-line="731" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/2022_05_09_14_03_07result.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Students/序列化与反序列化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/runMain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="100" column="101" selection-start-line="100" selection-start-column="90" selection-end-line="100" selection-end-column="101" />
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Software/python38/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Log/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basepage/unittestChushihua.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Software/python38/Lib/unittest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/gvg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/yyy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/operationini.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding>
+            <marker date="1652086372503" expanded="true" signature="732:737" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Software/python38/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/operationyaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#142#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/tokeinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/server_address.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/token.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="534" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="e#139#154#0" expanded="true" />
+            <marker date="1652163757728" expanded="true" signature="433:434" ph="..." />
+            <marker date="1652163757728" expanded="true" signature="433:438" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/test_shouye.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="63" column="20" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="20" />
+          <folding>
+            <element signature="e#138#149#0" expanded="true" />
+            <marker date="1652164313576" expanded="true" signature="493:494" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/case_parameters.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
