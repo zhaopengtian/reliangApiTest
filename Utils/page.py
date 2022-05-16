@@ -1,10 +1,10 @@
 import os,requests
 
 class Helper(object):
-    def get(self,url,data,headers=''):
+    def get(self,url,headers=''):
         '''重构Get请求'''
         if url:
-            r = requests.get(url=url,data=data,headers=headers)
+            r = requests.get(url=url,headers=headers)
             return r
         else:
             try:
