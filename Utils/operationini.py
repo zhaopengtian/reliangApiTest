@@ -11,7 +11,8 @@
 #@Software: PyCharm
 from Utils.conf import Conf
 import configparser
-
+import sys,os
+sys.path.append((os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))))
 class Conf(configparser.ConfigParser):
     def __init__(self, defaults=None):
         configparser.ConfigParser.__init__(self, defaults=defaults)
@@ -27,7 +28,7 @@ class Conf(configparser.ConfigParser):
         cf = Conf()
         #获取ini文件路径
         # conf = configparser.ConfigParser()
-        file_path = "../data/case_parameters.ini"
+        file_path = sys.path[1]+'\data\\'+"case_parameters.ini"
         cf.read(file_path,encoding='UTF-8')
         #根据section获取所有的值
         items = cf.items(section)
@@ -41,7 +42,7 @@ class Conf(configparser.ConfigParser):
         cf = Conf()
         # 获取ini文件路径
         # conf = configparser.ConfigParser()
-        file_path = "../data/case_parameters.ini"
+        file_path = sys.path[1]+'\data\\'+"case_parameters.ini"
         cf.read(file_path,encoding='UTF-8')
         # 根据section获取所有的值
         value = cf.get(section,option)

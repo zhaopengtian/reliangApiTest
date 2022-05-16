@@ -18,7 +18,3 @@ class Conf(configparser.ConfigParser):
     def optionxform(self, optionstr):
         return optionstr
 
-cf = Conf()
-cf.read("../data/case_parameters.ini",encoding='UTF-8')
-exclude_list = cf.options('获取保健文章列表,正确')
-print(exclude_list)

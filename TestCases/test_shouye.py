@@ -23,15 +23,17 @@ class Shouye(TestApi,Helper):
     token = read_yaml('token.yaml', 'token')
     #获取服务器地址
     url = read_yaml('server_address.yaml', 'url')
+    cf = Conf
 
     '''获取保健文章分类,正确'''
     def test_shouye_articleclassification(self):
-        url = 'http://'+self.url+'/healthArticle/getArticleType'
+        # 获取ini中用例
+        data = self.cf.getini_by_section('获取保健文章分类,正确')
+        get_parameter = dict_to_get_parameter(data)
+        url = 'http://'+self.url+'/healthArticle/getArticleType?'+get_parameter
         log.info('获取保健文章分类,正确:'+url)
         headers = {"token": self.token}
-        # 获取ini中用例
-        data = Conf.getini_by_section('获取保健文章分类,正确')
-        r = self.get(url,data,headers)
+        r = self.get(url,headers)
         log.info('传入参数:')
         # print(json.dumps(r,ensure_ascii=False,indent=1))
         # print(r.text)
@@ -45,9 +47,9 @@ class Shouye(TestApi,Helper):
     '''获取保健文章列表,正确'''
     def test_shouye_articlelist(self):
         # 获取ini中用例
-        data1 = Conf.getini_by_section('获取保健文章列表,正确')
+        data= self.cf.getini_by_section('获取保健文章列表,正确')
         #进行格式转换
-        get_parameter = dict_to_get_parameter(data1)
+        get_parameter = dict_to_get_parameter(data)
         url = 'http://' + self.url + '/healthArticle/getHealthArticleList?'+get_parameter
         log.info('获取保健文章列表,正确:'+url)
         headers = {"token": self.token}
@@ -67,14 +69,15 @@ class Shouye(TestApi,Helper):
 
     '''获取保健知识文章详情,正确'''
     def test_shouye_articledetails(self):
-        url = 'http://' + self.url + '/healthArticle/getArticleDetail?id=227'
+        data = self.cf.getini_by_section('获取保健知识文章详情,正确')
+        get_parameter = dict_to_get_parameter(data)
+        url = 'http://' + self.url + '/healthArticle/getArticleDetail?'+get_parameter
         log.info('获取保健知识文章详情:'+url)
         headers = {"token": self.token}
         # 获取ini中用例
-        data = Conf.getini_by_section('获取保健知识文章详情,正确')
         # print(data)
         # data = {'id':227}
-        r = self.get(url, data,headers)
+        r = self.get(url,headers)
         log.info('传入参数:')
         print(r.text)
         # print(json.dumps(r,ensure_ascii=False,indent=1))

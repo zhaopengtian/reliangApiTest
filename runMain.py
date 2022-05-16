@@ -81,7 +81,11 @@ if __name__ == '__main__':
     # testlist = unittest.defaultTestLoader.discover(test_dir,pattern='test*.py')
     '''跑指定文件下的测试用例'''
     testlist = unittest.TestSuite()
-    testlist.addTest(Shouye("test_shouye_getcategories"))
+    testlist.addTest(Login("test_login"))
+    testlist.addTest(Shouye("test_shouye_articleclassification"))
+    testlist.addTest(Shouye("test_shouye_articlelist"))
+    testlist.addTest(Shouye("test_shouye_articledetails"))
+
     '''跑一个类文件下的所有测试用例'''
     # testlist = unittest.TestSuite(unittest.makeSuite(TestModel))
     now = time.strftime("%Y_%m_%d_%H_%M_%S")

@@ -12,6 +12,8 @@
 
 import json
 
+import sys,os
+sys.path.append((os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))))
 from ruamel import yaml
 # import yaml
 
@@ -21,7 +23,7 @@ dataurl为yaml文件名
 content为要写入的内容,dict类型
 """
 def write_yaml(dataurl,content):
-    with open('../data/'+dataurl, 'w', encoding='utf-8') as f:
+    with open(sys.path[1]+'\data\\'+dataurl, 'w', encoding='utf-8') as f:
         # 将字典写入到yaml文件中
         yaml.dump(content, f, Dumper=yaml.RoundTripDumper, allow_unicode=True)
 
@@ -31,7 +33,8 @@ filename为yaml文件名
 keys为键值
 """
 def read_yaml(filename,keys):
-    with open('../data/'+filename, 'r', encoding="utf-8") as f:
+    with open(sys.path[1]+'\data\\'+filename, 'r', encoding="utf-8") as f:
         # yaml文件中读取内容
         msg = yaml.load(f.read(), Loader=yaml.Loader)
         return msg.get(keys)
+

@@ -15,22 +15,24 @@ import unittest
 from Utils.page import *
 from Basepage.unittestChushihua import TestApi
 from Utils.operationyaml import *
+from Utils.operationini import Conf
 from Utils.operationini import *
 from Utils.log import *
 class Login(TestApi,Helper):
     # 获取服务器地址
     url = read_yaml('server_address.yaml', 'url')
+    cf = Conf
     '''客户端用户登录,登录成功'''
     def test_login(self):
         url = 'http://' + self.url + '/public/login'
         log.info("客户端用户登录,登录成功:"+url)
         #获取ini中用例
-        data = getini_by_section('客户端用户登录,登录成功')
+        data = self.cf.getini_by_section('客户端用户登录,登录成功')
         headers = {}
         r = self.post(url,data,headers)
         log.info('传入参数:')
         self.assertEqual(r.json()['msg'], '登录成功')
-        self.assertEqual(r.json()['data']['userName'], getini_by_option('客户端用户登录,登录成功','username'))
+        self.assertEqual(r.json()['data']['userName'], self.cf.getini_by_option('客户端用户登录,登录成功','username'))
         self.assertEqual(r.json()['data']['userName'], '索诺亚')
         self.assertEqual(r.json()['data']['deptName'], '横岗街道保安学校')
         self.assertEqual(r.json()['data']['idCard'], '210282199004103417')
